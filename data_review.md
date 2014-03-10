@@ -1,3 +1,4 @@
+#Possible Data Sources
 ##Google Distance Matrix API
 ###Limits
 free API: 100 elements per query, 100 elements per 10 seconds,2500 elements per 24 hour period.
@@ -38,6 +39,22 @@ http://api.wikilocation.org/articles?lat=51.500688&lng=-0.124411&limit=1
 }
 ```
 
-Blog on Combining Wikipedia/Foursquare:
+##Combining Wikipedia/Foursquare:
 http://www.hackdiary.com/2012/04/05/extracting-a-social-graph-from-wikipedia-people-pages/
+
+##Yahoo WOEID
+-Gazetteer for Place/Neighborhood Names
+-Licensing may permit use
+-Can use *Shapes boundaries/centroids for locations
+
+##Potentially Useful AZGeo Data
+-City Boundaries
+-Airports
+-Air Quality Data ("areab...")
+-Golf Courses
+-Parks
+-PHX Libraries
+-Schools
+-Streets
+
 
