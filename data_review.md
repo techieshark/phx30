@@ -9,14 +9,17 @@ origins - pipe delimited address or coordinates (lat,long)
 destinations - ditto
 sensor - true/false
 
-###optional: mode (driving, walking, bicycling)
+###optional: 
+mode (driving, walking, bicycling)
 
-###returns: matrix of distances
+###returns: 
+matrix of distances
 
 ##Wikipedia:
 http://wikilocation.org/documentation/
 
-###Parameters: lat, long, radius (max 20km), limit (50 max), offset (pagination)
+###Parameters: 
+lat, long, radius (max 20km), limit (50 max), offset (pagination)
 http://api.wikilocation.org/articles?lat=51.500688&lng=-0.124411&limit=1
 
 ###Example Response
