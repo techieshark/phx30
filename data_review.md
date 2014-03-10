@@ -43,11 +43,11 @@ http://api.wikilocation.org/articles?lat=51.500688&lng=-0.124411&limit=1
 http://www.hackdiary.com/2012/04/05/extracting-a-social-graph-from-wikipedia-people-pages/
 
 ##Yahoo WOEID
--Gazetteer for Place/Neighborhood Names
+-Gazetteer for Place & Neighborhood Names
 -Licensing may permit use
 -Can use *Shapes boundaries/centroids for locations
 
-##Potentially Useful AZGeo Data
+##Potentially Useful AZGeo Data (ask Tom for file location)
 -City Boundaries
 -Airports
 -Air Quality Data ("areab...")
