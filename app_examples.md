@@ -6,8 +6,6 @@ http://www.slideshare.net/socialtech/20-hot-locationbased-apps-and-services-you-
 
 There are A LOT of applications out there already. Are we just suggesting inserting routing distances into these rather than geographic distance?
 
-
-
 ##Mobile
 - https://www.getnearme.com/
 
