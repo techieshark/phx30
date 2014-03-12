@@ -5,6 +5,10 @@ free API: 100 elements per query, 100 elements per 10 seconds,2500 elements per 
 
 https://developers.google.com/maps/documentation/distancematrix/#Limits
 
+##Google Places API
+
+https://developers.google.com/maps/documentation/javascript/places
+
 ###Parameters:
 origins - pipe delimited address or coordinates (lat,long)
 destinations - ditto
