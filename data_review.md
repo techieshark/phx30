@@ -7,6 +7,8 @@ https://developers.google.com/maps/documentation/distancematrix/#Limits
 
 ##Google Places API
 
+So basically, mash up the Places API with the Google Distance Matrix API, and show a list. 
+
 https://developers.google.com/maps/documentation/javascript/places
 
 ###Parameters:
