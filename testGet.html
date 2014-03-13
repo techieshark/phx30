@@ -4,8 +4,8 @@
 
 	<script>
 
-	var ORIGIN = "33.4150,-111.8314"
-	var DESTINATION = "33.3213094,-111.9116732"
+	var ORIGIN = "33.4150,-111.8314";
+	var DESTINATION = "33.3213094,-111.9116732";
 
 	function httpGet(theUrl)
 	{
@@ -17,7 +17,9 @@
 	    return xmlHttp.responseText;
 	}
 
-	var response = httpGet("https://maps.googleapis.com/maps/api/distancematrix/json?key=AIzaSyAzOF-EGWefl40wZ28RNwZLG4MRVQCw6cg&origins=ORIGIN&destinations=DESTINATION&sensor=true")
+	var url = "https://maps.googleapis.com/maps/api/distancematrix/json?key=AIzaSyAzOF-EGWefl40wZ28RNwZLG4MRVQCw6cg&origins=" + ORIGIN + "&destinations=" + DESTINATION + "&sensor=true";
+
+	var response = httpGet(url);
 
 	console.debug("%o", response);
 
