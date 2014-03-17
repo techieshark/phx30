@@ -4,11 +4,17 @@
    Author's custom styles
    ========================================================================== */
 
+.sr-only {
+    position: absolute !important; /* Otherwise things in the navbar aren't hidden. */
+}
 
-
-
-
-
+.icon {
+    font-size: 32px;
+    line-height: 58px !important;
+    width: 48px;
+    height: 48px;
+    color: white;
+}
 
 
 

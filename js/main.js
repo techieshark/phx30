@@ -134,12 +134,9 @@ $(document).ready(function() {
     // }).addTo(map); //
 
     // TODO: set location dynamically
-    var map = L.mapbox.map('map-canvas', 'techieshark.hi1e3djc').setView([33.4150,-111.8314], 9);
+    var map = L.mapbox.map('map-canvas', 'wendycfa.hi243873').setView([33.4150,-111.8314], 9);
 
-    // L.marker([33.4150,-111.8314]).addTo(map)
-    //     .bindPopup('YOU ARE HERE.')
-    //     .openPopup();
-
+    // YOU ARE HERE circle.
     var circle = L.circle([33.4150,-111.8314], 2500, {
         color: 'red',
         fillColor: '#f03',
