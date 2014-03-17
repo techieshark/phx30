@@ -111,6 +111,17 @@ function sendToDOM(locations) {
 }
 
 
+function sendToMap(map) {
+    return function(locations) {
+        for (var i = 0; i < locations.length && i < 10; i++) {
+            loc = locations[i];
+            // add a marker in the given location, attach some popup content to it and open the popup
+            L.marker([loc.lat, loc.lon]).addTo(map)
+                .bindPopup(loc.name + ': ' + loc.duration.text + ' (' + loc.distance.text + ') away.')
+                .openPopup();
+        }
+    }
+}
 
 $(document).ready(function() {
 
@@ -122,15 +133,18 @@ $(document).ready(function() {
     //     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
     // }).addTo(map); //
 
-    // // add a marker in the given location, attach some popup content to it and open the popup
-    // L.marker([51.5, -0.09]).addTo(map)
-    //     .bindPopup('A pretty CSS3 popup. <br> Easily customizable.')
-    //     .openPopup();
-
-
     // TODO: set location dynamically
     var map = L.mapbox.map('map-canvas', 'techieshark.hi1e3djc').setView([33.4150,-111.8314], 9);
 
+    // L.marker([33.4150,-111.8314]).addTo(map)
+    //     .bindPopup('YOU ARE HERE.')
+    //     .openPopup();
+
+    var circle = L.circle([33.4150,-111.8314], 2500, {
+        color: 'red',
+        fillColor: '#f03',
+        fillOpacity: 0.5
+    }).addTo(map);
 
     $.getJSON("places.geojson", function(json) {
         console.log(json);
@@ -149,7 +163,7 @@ $(document).ready(function() {
             };
         });
 
-        distanceTo(locations, sendToDOM);
+        distanceTo(locations, sendToMap(map));
     });
 
 
