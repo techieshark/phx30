@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-7fiplc');
+	src:url('../fonts/icomoon.eot?#iefix-7fiplc') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-7fiplc') format('woff'),
+		url('../fonts/icomoon.ttf?-7fiplc') format('truetype'),
+		url('../fonts/icomoon.svg?-7fiplc#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-clock:before {
+	content: "\e600";
+}
+.icon-clock2:before {
+	content: "\e601";
+}
+.icon-food:before {
+	content: "\e602";
+}
+.icon-park:before {
+	content: "\e603";
+}
+.icon-arts:before {
+	content: "\e604";
+}
+.icon-library:before {
+	content: "\e605";
+}
+.icon-shopping:before {
+	content: "\e606";
+}
+.icon-park2:before {
+	content: "\e607";
+}
+.icon-car:before {
+	content: "\e608";
+}
+.icon-walking:before {
+	content: "\e609";
+}
+.icon-bus:before {
+	content: "\e60a";
+}
+.icon-home:before {
+	content: "\e60b";
+}
